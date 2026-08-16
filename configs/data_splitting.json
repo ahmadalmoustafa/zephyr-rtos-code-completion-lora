@@ -1,0 +1,14 @@
+{
+  "seed": 20260717,
+  "group_strategy": "parent-directory",
+  "size_ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "evaluation": 0.1
+  },
+  "cpp_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "evaluation": 0.15
+  }
+}

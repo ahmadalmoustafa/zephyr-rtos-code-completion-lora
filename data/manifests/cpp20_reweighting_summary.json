@@ -1,0 +1,34 @@
+{
+  "effective_counts": {
+    "cpp_high": 15680,
+    "cpp_low": 88,
+    "cpp_medium": 336,
+    "non_cpp": 64752
+  },
+  "effective_cpp_examples": 16104,
+  "effective_cpp_share": 0.199168892846542,
+  "effective_examples": 80856,
+  "evaluation_modified": false,
+  "input": "/home/ahmadalmoustafa/zephyr-code-finetune/data/processed/train.jsonl",
+  "languages": {
+    "c": 46847,
+    "c_header": 17905,
+    "cpp": 158,
+    "cpp_header": 25
+  },
+  "output": "/home/ahmadalmoustafa/zephyr-code-finetune/data/processed/train_cpp20.jsonl",
+  "raw_counts": {
+    "cpp_high": 140,
+    "cpp_low": 22,
+    "cpp_medium": 21,
+    "non_cpp": 64752
+  },
+  "records": 64935,
+  "repeat_by_cpp_priority": {
+    "high": 112,
+    "low": 4,
+    "medium": 16
+  },
+  "schema_version": 1,
+  "validation_modified": false
+}

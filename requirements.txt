@@ -1,0 +1,14 @@
+# Core versions used for the reported experiments.
+# Install a PyTorch build compatible with the target CUDA driver/runtime.
+
+torch==2.9.1
+transformers==5.14.1
+datasets==5.0.0
+peft==0.19.1
+trl==1.8.0
+accelerate==1.14.0
+
+# Supporting runtime packages
+huggingface-hub
+safetensors
+tqdm

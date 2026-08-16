@@ -1,0 +1,97 @@
+{
+  "generated_at_utc": "2026-08-14T08:13:22.982869+00:00",
+  "repository_commit": "1f6485eca25431b5ff27ce9a754218c9e559bbbb",
+  "supported_extensions": [
+    ".c",
+    ".cpp",
+    ".h",
+    ".hpp"
+  ],
+  "total_files": 13697,
+  "candidate_files": 13696,
+  "total_bytes": 115056123,
+  "total_lines": 3908086,
+  "files_by_extension": {
+    ".c": 8553,
+    ".cpp": 59,
+    ".h": 5069,
+    ".hpp": 16
+  },
+  "files_by_language": {
+    "c": 8553,
+    "c_header": 5069,
+    "cpp": 59,
+    "cpp_header": 16
+  },
+  "files_by_top_level_directory": {
+    "drivers": 3648,
+    "tests": 2727,
+    "include": 1982,
+    "subsys": 1698,
+    "soc": 1403,
+    "samples": 1041,
+    "arch": 330,
+    "lib": 240,
+    "modules": 235,
+    "boards": 231,
+    "scripts": 83,
+    "kernel": 66,
+    "dts": 7,
+    "doc": 5,
+    "misc": 1
+  },
+  "duplicate_hash_groups": 96,
+  "extra_duplicate_files": 145,
+  "largest_files": [
+    {
+      "path": "subsys/testsuite/include/zephyr/fff.h",
+      "size_bytes": 671249,
+      "line_count": 8742
+    },
+    {
+      "path": "include/zephyr/sys/util_internal_is_eq.h",
+      "size_bytes": 581607,
+      "line_count": 16405
+    },
+    {
+      "path": "include/zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h",
+      "size_bytes": 571060,
+      "line_count": 8475
+    },
+    {
+      "path": "include/zephyr/dt-bindings/pinctrl/silabs/xg26-pinctrl.h",
+      "size_bytes": 546298,
+      "line_count": 9058
+    },
+    {
+      "path": "include/zephyr/sys/util_listify.h",
+      "size_bytes": 513186,
+      "line_count": 16400
+    },
+    {
+      "path": "tests/bluetooth/controller/ctrl_isoal/src/sub_sets/isoal_test_rx.c",
+      "size_bytes": 482433,
+      "line_count": 13254
+    },
+    {
+      "path": "samples/modules/tflite-micro/tflm_ethosu/src/models/keyword_spotting_cnn_small_int8/model.h",
+      "size_bytes": 463911,
+      "line_count": 5121
+    },
+    {
+      "path": "include/zephyr/dt-bindings/pinctrl/esp32-pinctrl.h",
+      "size_bytes": 317566,
+      "line_count": 5056
+    },
+    {
+      "path": "include/zephyr/dt-bindings/pinctrl/silabs/xg28-pinctrl.h",
+      "size_bytes": 291299,
+      "line_count": 4745
+    },
+    {
+      "path": "subsys/bluetooth/controller/hci/hci.c",
+      "size_bytes": 267354,
+      "line_count": 9476
+    }
+  ]
+}

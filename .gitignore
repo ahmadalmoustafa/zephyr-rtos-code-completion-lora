@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+*.token
+*.key
+credentials*
+secrets*
+
+# Model and training artifacts
+cache/
+outputs/
+release/
+release_manual/
+checkpoint-*/
+**/checkpoint-*/
+*.safetensors
+*.bin
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state*.pth
+trainer_state.json
+training_args.bin
+
+# Reproducible but large source and dataset artifacts
+data/raw/
+data/processed/
+data/**/*.jsonl
+data/manifests/*.jsonl
+
+# Evaluation predictions and runtime logs
+results/**/predictions*.jsonl
+reports/*.log
+*.log
+*.pid
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/

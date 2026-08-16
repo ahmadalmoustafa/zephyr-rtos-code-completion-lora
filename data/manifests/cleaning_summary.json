@@ -1,0 +1,64 @@
+{
+  "generated_at_utc": "2026-08-14T08:21:14.822304+00:00",
+  "total_files": 13697,
+  "included_files": 12823,
+  "excluded_files": 874,
+  "included_bytes": 104027579,
+  "included_lines": 3684975,
+  "exclusions_by_reason": {
+    "excluded-path-prefix": 679,
+    "exact-duplicate": 135,
+    "hex-data-heavy": 54,
+    "known-generated-or-vendored": 3,
+    "over-maximum-size": 2,
+    "empty-file": 1
+  },
+  "included_by_extension": {
+    ".c": 8396,
+    ".cpp": 53,
+    ".h": 4358,
+    ".hpp": 16
+  },
+  "included_by_directory_tier": {
+    "core": 10695,
+    "platform": 1888,
+    "integration": 235,
+    "other": 5
+  },
+  "included_cpp_by_priority": {
+    "high": 43,
+    "low": 20,
+    "medium": 6
+  },
+  "configuration": {
+    "max_file_bytes": 409600,
+    "exclude_path_prefixes": [
+      "scripts/",
+      "include/zephyr/dt-bindings/"
+    ],
+    "exclude_exact_paths": [
+      "subsys/testsuite/include/zephyr/fff.h",
+      "include/zephyr/sys/util_internal_is_eq.h",
+      "include/zephyr/sys/util_listify.h"
+    ],
+    "hex_literal_min_count": 200,
+    "hex_literals_per_line_threshold": 1.0,
+    "deduplicate_exact_files": true,
+    "canonical_directory_priority": [
+      "samples",
+      "tests",
+      "include",
+      "drivers",
+      "subsys",
+      "kernel",
+      "lib",
+      "arch",
+      "soc",
+      "boards",
+      "modules",
+      "dts",
+      "doc",
+      "misc"
+    ]
+  }
+}

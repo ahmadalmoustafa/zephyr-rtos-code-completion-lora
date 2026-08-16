@@ -1,0 +1,36 @@
+{
+  "generated_at_utc": "2026-08-14T09:09:59.916551+00:00",
+  "source_split": "evaluation",
+  "seed": 20260717,
+  "references_end_at_newline": true,
+  "general_benchmark": {
+    "examples": 512,
+    "source_files": 512,
+    "by_language": {
+      "c": 322,
+      "c_header": 174,
+      "cpp": 10,
+      "cpp_header": 6
+    },
+    "cpp_by_priority": {
+      "low": 11,
+      "high": 5
+    },
+    "average_prompt_tokens": 338.77,
+    "average_completion_tokens": 94.37
+  },
+  "cpp_benchmark": {
+    "examples": 62,
+    "source_files": 16,
+    "by_language": {
+      "cpp": 38,
+      "cpp_header": 24
+    },
+    "cpp_by_priority": {
+      "low": 43,
+      "high": 19
+    },
+    "average_prompt_tokens": 268.1,
+    "average_completion_tokens": 102.4
+  }
+}

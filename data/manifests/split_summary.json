@@ -1,0 +1,69 @@
+{
+  "generated_at_utc": "2026-08-14T08:24:11.546121+00:00",
+  "seed": 20260717,
+  "group_strategy": "parent-directory",
+  "total_files": 12823,
+  "total_groups": 3501,
+  "total_bytes": 104027579,
+  "total_cpp_files": 69,
+  "total_high_priority_cpp_files": 43,
+  "leakage_checks": {
+    "path_duplicates": 0,
+    "cross_split_directory_groups": 0,
+    "cross_split_exact_hashes": 0
+  },
+  "splits": {
+    "train": {
+      "files": 10253,
+      "groups": 2806,
+      "bytes": 83221972,
+      "byte_percentage": 80.0,
+      "lines": 2948076,
+      "by_extension": {
+        ".c": 6829,
+        ".cpp": 34,
+        ".h": 3383,
+        ".hpp": 7
+      },
+      "cpp_by_priority": {
+        "high": 31,
+        "medium": 6,
+        "low": 4
+      }
+    },
+    "validation": {
+      "files": 1331,
+      "groups": 349,
+      "bytes": 10402804,
+      "byte_percentage": 10.0,
+      "lines": 367605,
+      "by_extension": {
+        ".c": 825,
+        ".cpp": 9,
+        ".h": 494,
+        ".hpp": 3
+      },
+      "cpp_by_priority": {
+        "high": 7,
+        "low": 5
+      }
+    },
+    "evaluation": {
+      "files": 1239,
+      "groups": 346,
+      "bytes": 10402803,
+      "byte_percentage": 10.0,
+      "lines": 369294,
+      "by_extension": {
+        ".c": 742,
+        ".cpp": 10,
+        ".h": 481,
+        ".hpp": 6
+      },
+      "cpp_by_priority": {
+        "low": 11,
+        "high": 5
+      }
+    }
+  }
+}

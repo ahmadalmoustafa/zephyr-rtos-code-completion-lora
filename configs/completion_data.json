@@ -1,0 +1,20 @@
+{
+  "format": "left-context-completion",
+  "prompt_context_lines": 96,
+  "completion_lines": 16,
+  "cut_stride_lines": 16,
+  "minimum_cut_line": 4,
+  "maximum_examples_per_file": {
+    "train": 8,
+    "validation": 4,
+    "evaluation": 4
+  },
+  "training_repeats": {
+    "high": 20,
+    "medium": 10,
+    "low": 4,
+    "not-cpp": 1
+  },
+  "normalize_line_endings": true,
+  "remove_trailing_whitespace": true
+}

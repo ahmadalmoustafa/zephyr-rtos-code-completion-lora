@@ -1,0 +1,76 @@
+{
+  "generated_at_utc": "2026-08-14T08:59:37.501152+00:00",
+  "model_id": "Qwen/Qwen2.5-Coder-1.5B",
+  "model_revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+  "dataset_format": "left-context-completion",
+  "unique_example_fingerprints": 74226,
+  "splits": {
+    "train": {
+      "examples": 64935,
+      "source_files_with_examples": 10015,
+      "files_without_examples": 238,
+      "duplicate_examples_removed": 97,
+      "prompt_tokens": 34135730,
+      "completion_tokens": 6893592,
+      "average_prompt_tokens": 525.69,
+      "average_completion_tokens": 106.16,
+      "by_language": {
+        "c": 46847,
+        "c_header": 17905,
+        "cpp": 158,
+        "cpp_header": 25
+      },
+      "cpp_examples_by_priority": {
+        "high": 140,
+        "low": 22,
+        "medium": 21
+      },
+      "effective_training_examples": 67850,
+      "output_path": "data/processed/train.jsonl"
+    },
+    "validation": {
+      "examples": 4774,
+      "source_files_with_examples": 1298,
+      "files_without_examples": 33,
+      "duplicate_examples_removed": 10,
+      "prompt_tokens": 2043436,
+      "completion_tokens": 473653,
+      "average_prompt_tokens": 428.03,
+      "average_completion_tokens": 99.22,
+      "by_language": {
+        "c": 3069,
+        "c_header": 1658,
+        "cpp": 35,
+        "cpp_header": 12
+      },
+      "cpp_examples_by_priority": {
+        "high": 28,
+        "low": 19
+      },
+      "effective_training_examples": 4774,
+      "output_path": "data/processed/validation.jsonl"
+    },
+    "evaluation": {
+      "examples": 4517,
+      "source_files_with_examples": 1211,
+      "files_without_examples": 28,
+      "duplicate_examples_removed": 20,
+      "prompt_tokens": 2044815,
+      "completion_tokens": 456945,
+      "average_prompt_tokens": 452.69,
+      "average_completion_tokens": 101.16,
+      "by_language": {
+        "c": 2810,
+        "c_header": 1645,
+        "cpp": 38,
+        "cpp_header": 24
+      },
+      "cpp_examples_by_priority": {
+        "low": 43,
+        "high": 19
+      },
+      "effective_training_examples": 4517,
+      "output_path": "data/processed/evaluation.jsonl"
+    }
+  }
+}

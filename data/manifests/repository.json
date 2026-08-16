@@ -1,0 +1,8 @@
+{
+  "repository_url": "https://github.com/zephyrproject-rtos/zephyr.git",
+  "requested_revision": "v4.4.1",
+  "resolved_commit": "1f6485eca25431b5ff27ce9a754218c9e559bbbb",
+  "commit_date": "2026-06-10T10:41:55-05:00",
+  "fetched_at_utc": "2026-08-14T08:11:00.563694+00:00",
+  "target_directory": "data/raw/zephyr"
+}

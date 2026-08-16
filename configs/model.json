@@ -1,0 +1,15 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-1.5B",
+  "model_revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+  "model_type": "base-code-model",
+  "training_objective": "left-context-completion",
+  "transformers_version": "5.14.1",
+  "tokenizer_class": "Qwen2Tokenizer",
+  "tokenizer_vocab_size": 151665,
+  "max_sequence_tokens": 1024,
+  "max_prompt_tokens": 896,
+  "max_completion_tokens": 128,
+  "minimum_prompt_tokens": 32,
+  "minimum_completion_tokens": 8,
+  "add_special_tokens": false
+}

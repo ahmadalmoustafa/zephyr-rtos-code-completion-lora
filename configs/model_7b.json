@@ -1,0 +1,5 @@
+{
+  "model_name": "Qwen/Qwen2.5-Coder-7B",
+  "revision": "0396a76181e127dfc13e5c5ec48a8cee09938b02",
+  "max_sequence_length": 1024
+}
